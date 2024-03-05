@@ -49,7 +49,22 @@ div p{
     line-height: 21px;
 }
 
+div a+a{ 
+    margin-top: 16px;
+}
+
 div a{
     display: block;
-    
+    text-decoration: nane;
+    background-color: #333333;
+    padding: 8px;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+}
+div a:hover{
+    background-color: #C4F82A;
+    color: #141414;
+    transition: 0.4s;
 }
